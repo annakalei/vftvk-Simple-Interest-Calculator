@@ -1,5 +1,5 @@
 function compute() {
-   
+   //values and calculation
     var principal = parseFloat(document.getElementById("principal").value);
     var rate = parseFloat(document.getElementById("rate").value);
     var years = parseInt(document.getElementById("years").value);
@@ -13,12 +13,12 @@ function compute() {
 
 }
 
-
+//update
 function getSliderValue() {
     document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
 }
 
-
+//positive values
 function validateAmount() {
     var principal = document.getElementById("principal").value;
     var biggerThanZero = parseInt(principal) > 0;
